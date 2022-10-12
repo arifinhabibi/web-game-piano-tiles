@@ -1,7 +1,6 @@
 
 let nameSong = null
 
-
 fetch('./source/js/map.json').then(function (response) {
     return response.json()
 }).then(function (data) {
@@ -10,6 +9,11 @@ fetch('./source/js/map.json').then(function (response) {
     
     console.log(nameSong)
 });
+
+const keysD = document.querySelector('.keys-D')
+const keysF = document.querySelector('.keys-F')
+const keysJ = document.querySelector('.keys-J')
+const keysK = document.querySelector('.keys-K')
 
 
 // import data from './map.json'  assert { type: 'JSON' };
