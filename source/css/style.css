@@ -39,7 +39,6 @@ body {
 }
 
 .container .sidebar .menus {
-    color: #fff;
     margin-top: 30px;
 }
 
@@ -47,6 +46,10 @@ body {
     list-style: none;
     margin-bottom: 10px;
     font-size: 20px;
+}
+.container .sidebar .menus ul li a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .container #wrapper {
@@ -106,6 +109,7 @@ body {
     height: 200px;
     background-color: #3e8db1 ;
     border: 1px solid #fff;
+
 }
 .container #wrapper .grid .line-K .keys-K {
     width: 74px;
@@ -118,6 +122,51 @@ body {
 
 @keyframes keys {
     100% {
-       margin-top: 100px;
+       margin-top: 550px;
    } 
+}
+
+
+/* menu */
+
+.container .choose-song {
+    display: none;
+    background-color: rgb(15, 15, 15);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+.container .choose-song .title {
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.container .choose-song .cancel {
+    position: absolute;
+    margin-left: 430px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 30px;
+    user-select: none;
+    cursor: pointer;
+}   
+.container .choose-song label{
+    color: #fff;
+    margin-left: 50px;
+    font-size: 24px;
+}
+.container .choose-song #song {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
 }

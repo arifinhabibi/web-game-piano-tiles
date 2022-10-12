@@ -24,10 +24,19 @@
             <div class="title">Piano Tiles</div>
             <div class="menus">
                 <ul>
-                    <li>Home</li>
-                    <li>Choose songs</li>
-                    <li>Option</li>
-                    <li>Quit</li>
+                    
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" id="chooseSongs">Choose songs</a>
+                    </li>
+                    <li>
+                        <a href="#">Options</a>
+                    </li>
+                    <li>
+                        <a href="#">Quit</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -49,12 +58,22 @@
             </div>
             <canvas id="canvas"></canvas>
         </div>
+
+        <div class="choose-song">
+            <div class="cancel">X</div>
+            <div class="title">Choose Song</div>
+            <label for="song">song</label>
+            <select id="song">
+                <option value="unforgiving">Unforgiving</option>
+            </select>
+        </div>
     </div>
 
 
     <!-- js -->
     <script src="./source/js/script.js"></script>
     <script src="./source/js/tuts.js"></script>
+    <script src="./source/js/song.js"></script>
     <script src="./source/js/game.js"></script>
 </body>
 </html>
